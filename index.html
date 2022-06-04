@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+	<title>password generator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="top-container">
+			<h1>Generate a <br><span>random password</span></h1>
+			<p>Never use an insecure password again.</p>
+			<div class="slider-container">
+				<input id="slider" class="slider" type="range" min="8" max="16" value="12">
+				<p id="slider-value">21</p>
+			</div>
+			<button onclick="onPress()"> <img src="./Icon.png"> Generate passwords</button>
+			<div class="hr"></div>
+		</div>
+		<div class="par-container">
+			<div class="dir-column">
+				<p id="pass1">1</p>
+				<p id="pass2">1</p>
+			</div>
+			<div class="dir-column">
+				<p id="pass3">1</p>
+				<p id="pass4">1</p>
+			</div>
+		</div>
+	</div>	
+	<script src="./script.js"></script>
+</body>
+</html>
